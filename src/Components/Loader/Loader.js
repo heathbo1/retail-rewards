@@ -1,6 +1,5 @@
 import logo from './logo.svg'
 import './Loader.scss'
-import { useState } from 'react'
 
 const Loader = () => {
 
