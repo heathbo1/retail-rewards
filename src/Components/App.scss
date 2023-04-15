@@ -1,0 +1,26 @@
+
+$display: flex;
+$flexDirection: column;
+$alignItems: center;
+$justifyContent: center;
+
+.App {
+  text-align: $alignItems;
+  height: 100vh;
+  background-color: rgb(231, 235, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-body {
+min-height: 100vh;
+  display: $display;
+  flex-direction: $flexDirection;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
+
+.App-link {
+  color: #61dafb;
+}
